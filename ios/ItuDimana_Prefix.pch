@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'ItuDimana' target in the 'ItuDimana' project
+//
+// Semua import header kumpulin sini
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <CoreLocation/CoreLocation.h>
+    #import <CoreData/CoreData.h>
+#endif

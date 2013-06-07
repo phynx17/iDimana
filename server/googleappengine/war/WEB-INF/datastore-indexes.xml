@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes autoGenerate="true">
+	<!-- Gak perlu ni 
+    <datastore-index kind="SavedPlace" ancestor="false">
+        <property name="category" direction="asc" />
+        <property name="name" direction="asc" />
+    </datastore-index>
+
+    <datastore-index kind="SavedPlace" ancestor="false">
+        <property name="id" direction="desc" />
+    </datastore-index>
+	-->
+</datastore-indexes>

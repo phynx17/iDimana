@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <!-- Servlets -->
+  <!-- Specific to GWT --> 
+  <servlet>
+    <servlet-name>gwtPlacesServlet</servlet-name>
+    <servlet-class>com.phynx.itudimana.server.GWTPlacesServiceImpl</servlet-class>
+  </servlet>
+  
+  <!-- Generic servlet --> 
+  <servlet>
+    <servlet-name>putplace</servlet-name>
+    <servlet-class>com.phynx.itudimana.server.PlacesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>delplace</servlet-name>
+    <servlet-class>com.phynx.itudimana.server.PlacesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>updplace</servlet-name>
+    <servlet-class>com.phynx.itudimana.server.PlacesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>findplace</servlet-name>
+    <servlet-class>com.phynx.itudimana.server.PlacesServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>nearplace</servlet-name>
+    <servlet-class>com.phynx.itudimana.server.PlacesServlet</servlet-class>
+  </servlet>    
+  
+  <servlet-mapping>
+    <servlet-name>gwtPlacesServlet</servlet-name>
+    <url-pattern>/itudimana/gwtplacesservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>putplace</servlet-name>
+    <url-pattern>/itudimana/putplace</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>delplace</servlet-name>
+    <url-pattern>/itudimana/delplace</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>updplace</servlet-name>
+    <url-pattern>/itudimana/updplace</url-pattern>
+  </servlet-mapping>  
+  <servlet-mapping>
+    <servlet-name>findplace</servlet-name>
+    <url-pattern>/itudimana/findplace</url-pattern>
+  </servlet-mapping>   
+  <servlet-mapping>
+    <servlet-name>nearplace</servlet-name>
+    <url-pattern>/itudimana/nearplace</url-pattern>
+  </servlet-mapping>  
+
+</web-app>

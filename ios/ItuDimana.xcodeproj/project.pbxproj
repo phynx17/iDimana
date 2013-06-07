@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ItuDimanaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ItuDimanaAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28216C970DB411BC00E5133A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28216C960DB411BC00E5133A /* FirstViewController.m */; };
+		282CCBFE0DB6C98000C4EA27 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 282CCBFD0DB6C98000C4EA27 /* SettingsView.xib */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		C45A65C410629C8700E003F5 /* ViewPlaceDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A65C210629C8700E003F5 /* ViewPlaceDetailController.m */; };
+		C45A65C510629C8700E003F5 /* ViewPlaceDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45A65C310629C8700E003F5 /* ViewPlaceDetailController.xib */; };
+		C45A65EB10629F8900E003F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45A65EA10629F8900E003F5 /* MapKit.framework */; };
+		C45A66811062AB4D00E003F5 /* ParkPlaceMark.m in Sources */ = {isa = PBXBuildFile; fileRef = C45A66801062AB4D00E003F5 /* ParkPlaceMark.m */; };
+		C46F2E5510555D4200BD2A82 /* ItuDimanaPlaces.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = C46F2E5410555D4200BD2A82 /* ItuDimanaPlaces.xcdatamodel */; };
+		C46F2EC21055661500BD2A82 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46F2EC11055661500BD2A82 /* CoreData.framework */; };
+		C46F305D1058057600BD2A82 /* SavedPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46F305B1058057600BD2A82 /* SavedPlaceViewController.m */; };
+		C46F305E1058057600BD2A82 /* SavedPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C46F305C1058057600BD2A82 /* SavedPlaceViewController.xib */; };
+		C4A643F6103DC3AD00FDB223 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A643F5103DC3AD00FDB223 /* Place.m */; };
+		C4A64601103FEB6900FDB223 /* ItuDimanaXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A64600103FEB6900FDB223 /* ItuDimanaXMLParser.m */; };
+		C4A6460E103FF01D00FDB223 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A6460D103FF01D00FDB223 /* Alerts.m */; };
+		C4BD26A2104A69F90085BC79 /* CategoryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BD26A1104A69F90085BC79 /* CategoryItem.m */; };
+		C4BD26A6104A6A3A0085BC79 /* ChooseCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BD26A4104A6A3A0085BC79 /* ChooseCategoryViewController.m */; };
+		C4BD26A7104A6A3A0085BC79 /* ChooseCategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BD26A5104A6A3A0085BC79 /* ChooseCategoryViewController.xib */; };
+		C4BD289A104A9A760085BC79 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BD2899104A9A760085BC79 /* SettingsViewController.m */; };
+		C4BD294C104ACF1D0085BC79 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BD294A104ACF1D0085BC79 /* AboutViewController.m */; };
+		C4BD294D104ACF1D0085BC79 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4BD294B104ACF1D0085BC79 /* AboutViewController.xib */; };
+		C4BD29DC104ADABE0085BC79 /* DisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BD29DB104ADABE0085BC79 /* DisplayCell.m */; };
+		C4BE37B6103B0DE400018E2D /* TheCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4BE37B5103B0DE400018E2D /* TheCLController.m */; };
+		C4BE3801103C66B500018E2D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BE3800103C66B500018E2D /* CoreLocation.framework */; };
+		C4CF4159106C84D00071BD4E /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = C4CF4158106C84D00071BD4E /* radar.png */; };
+		C4D25D2E106C85E10077FCF2 /* lifebuoy.png in Resources */ = {isa = PBXBuildFile; fileRef = C4D25D2D106C85E10077FCF2 /* lifebuoy.png */; };
+		C4EC050B1042E2B7000E44F2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05011042E2B7000E44F2 /* Icon.png */; };
+		C4EC050C1042E2B7000E44F2 /* ico-about.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05021042E2B7000E44F2 /* ico-about.png */; };
+		C4EC050D1042E2B7000E44F2 /* ico-draft.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05031042E2B7000E44F2 /* ico-draft.png */; };
+		C4EC050E1042E2B7000E44F2 /* ico-newPointer.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05041042E2B7000E44F2 /* ico-newPointer.png */; };
+		C4EC050F1042E2B7000E44F2 /* ico-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05051042E2B7000E44F2 /* ico-settings.png */; };
+		C4EC05111042E2B7000E44F2 /* introSmall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05071042E2B7000E44F2 /* introSmall.jpg */; };
+		C4EC05121042E2B7000E44F2 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05081042E2B7000E44F2 /* pin.png */; };
+		C4EC05771042F256000E44F2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC05761042F256000E44F2 /* Default.png */; };
+		C4EC071210444871000E44F2 /* ballon.png in Resources */ = {isa = PBXBuildFile; fileRef = C4EC071110444871000E44F2 /* ballon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ItuDimanaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItuDimanaAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* ItuDimanaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItuDimanaAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ItuDimana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItuDimana.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28216C950DB411BC00E5133A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = Classes/FirstViewController.h; sourceTree = "<group>"; };
+		28216C960DB411BC00E5133A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = Classes/FirstViewController.m; sourceTree = "<group>"; };
+		282CCBFD0DB6C98000C4EA27 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* ItuDimana_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItuDimana_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* ItuDimana-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ItuDimana-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C45A65C110629C8700E003F5 /* ViewPlaceDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPlaceDetailController.h; sourceTree = "<group>"; };
+		C45A65C210629C8700E003F5 /* ViewPlaceDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPlaceDetailController.m; sourceTree = "<group>"; };
+		C45A65C310629C8700E003F5 /* ViewPlaceDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewPlaceDetailController.xib; sourceTree = "<group>"; };
+		C45A65EA10629F8900E003F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C45A667F1062AB4D00E003F5 /* ParkPlaceMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParkPlaceMark.h; sourceTree = "<group>"; };
+		C45A66801062AB4D00E003F5 /* ParkPlaceMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParkPlaceMark.m; sourceTree = "<group>"; };
+		C46F2E5410555D4200BD2A82 /* ItuDimanaPlaces.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = ItuDimanaPlaces.xcdatamodel; sourceTree = "<group>"; };
+		C46F2EC11055661500BD2A82 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		C46F305A1058057600BD2A82 /* SavedPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavedPlaceViewController.h; sourceTree = "<group>"; };
+		C46F305B1058057600BD2A82 /* SavedPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavedPlaceViewController.m; sourceTree = "<group>"; };
+		C46F305C1058057600BD2A82 /* SavedPlaceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedPlaceViewController.xib; sourceTree = "<group>"; };
+		C4A643F4103DC3AD00FDB223 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		C4A643F5103DC3AD00FDB223 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		C4A645FF103FEB6900FDB223 /* ItuDimanaXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItuDimanaXMLParser.h; sourceTree = "<group>"; };
+		C4A64600103FEB6900FDB223 /* ItuDimanaXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItuDimanaXMLParser.m; sourceTree = "<group>"; };
+		C4A6460C103FF01D00FDB223 /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alerts.h; sourceTree = "<group>"; };
+		C4A6460D103FF01D00FDB223 /* Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alerts.m; sourceTree = "<group>"; };
+		C4BD26A0104A69F90085BC79 /* CategoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryItem.h; sourceTree = "<group>"; };
+		C4BD26A1104A69F90085BC79 /* CategoryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryItem.m; sourceTree = "<group>"; };
+		C4BD26A3104A6A3A0085BC79 /* ChooseCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChooseCategoryViewController.h; path = Classes/ChooseCategoryViewController.h; sourceTree = "<group>"; };
+		C4BD26A4104A6A3A0085BC79 /* ChooseCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChooseCategoryViewController.m; path = Classes/ChooseCategoryViewController.m; sourceTree = "<group>"; };
+		C4BD26A5104A6A3A0085BC79 /* ChooseCategoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ChooseCategoryViewController.xib; path = Classes/ChooseCategoryViewController.xib; sourceTree = "<group>"; };
+		C4BD26DD104A6ECB0085BC79 /* PlaceHolderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderDelegate.h; sourceTree = "<group>"; };
+		C4BD2898104A9A760085BC79 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		C4BD2899104A9A760085BC79 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		C4BD2949104ACF1D0085BC79 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		C4BD294A104ACF1D0085BC79 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		C4BD294B104ACF1D0085BC79 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		C4BD29DA104ADABE0085BC79 /* DisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayCell.h; sourceTree = "<group>"; };
+		C4BD29DB104ADABE0085BC79 /* DisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayCell.m; sourceTree = "<group>"; };
+		C4BD29F0104AE1AA0085BC79 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		C4BE37B4103B0DE400018E2D /* TheCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheCLController.h; path = Classes/TheCLController.h; sourceTree = "<group>"; };
+		C4BE37B5103B0DE400018E2D /* TheCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheCLController.m; path = Classes/TheCLController.m; sourceTree = "<group>"; };
+		C4BE3800103C66B500018E2D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C4CF4158106C84D00071BD4E /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
+		C4D25D2D106C85E10077FCF2 /* lifebuoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lifebuoy.png; sourceTree = "<group>"; };
+		C4EC05011042E2B7000E44F2 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C4EC05021042E2B7000E44F2 /* ico-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-about.png"; sourceTree = "<group>"; };
+		C4EC05031042E2B7000E44F2 /* ico-draft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-draft.png"; sourceTree = "<group>"; };
+		C4EC05041042E2B7000E44F2 /* ico-newPointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-newPointer.png"; sourceTree = "<group>"; };
+		C4EC05051042E2B7000E44F2 /* ico-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico-settings.png"; sourceTree = "<group>"; };
+		C4EC05071042E2B7000E44F2 /* introSmall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = introSmall.jpg; sourceTree = "<group>"; };
+		C4EC05081042E2B7000E44F2 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		C4EC05761042F256000E44F2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C4EC071110444871000E44F2 /* ballon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ballon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				C4BE3801103C66B500018E2D /* CoreLocation.framework in Frameworks */,
+				C46F2EC21055661500BD2A82 /* CoreData.framework in Frameworks */,
+				C45A65EB10629F8900E003F5 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ItuDimanaAppDelegate.h */,
+				1D3623250D0F684500981E51 /* ItuDimanaAppDelegate.m */,
+				C4A643F4103DC3AD00FDB223 /* Place.h */,
+				C4A643F5103DC3AD00FDB223 /* Place.m */,
+				C4A645FF103FEB6900FDB223 /* ItuDimanaXMLParser.h */,
+				C4A64600103FEB6900FDB223 /* ItuDimanaXMLParser.m */,
+				C4A6460C103FF01D00FDB223 /* Alerts.h */,
+				C4A6460D103FF01D00FDB223 /* Alerts.m */,
+				C4BD26A0104A69F90085BC79 /* CategoryItem.h */,
+				C4BD26A1104A69F90085BC79 /* CategoryItem.m */,
+				C4BD26DD104A6ECB0085BC79 /* PlaceHolderDelegate.h */,
+				C4BD29DA104ADABE0085BC79 /* DisplayCell.h */,
+				C4BD29DB104ADABE0085BC79 /* DisplayCell.m */,
+				C4BD29F0104AE1AA0085BC79 /* Constants.h */,
+				C45A667F1062AB4D00E003F5 /* ParkPlaceMark.h */,
+				C45A66801062AB4D00E003F5 /* ParkPlaceMark.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ItuDimana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ItuDimana */ = {
+			isa = PBXGroup;
+			children = (
+				C4BD26AE104A6A440085BC79 /* Controllers */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ItuDimana;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* ItuDimana_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4D25D2D106C85E10077FCF2 /* lifebuoy.png */,
+				C4CF4158106C84D00071BD4E /* radar.png */,
+				C4BD294B104ACF1D0085BC79 /* AboutViewController.xib */,
+				C4BD26A5104A6A3A0085BC79 /* ChooseCategoryViewController.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				282CCBFD0DB6C98000C4EA27 /* SettingsView.xib */,
+				C46F305C1058057600BD2A82 /* SavedPlaceViewController.xib */,
+				C45A65C310629C8700E003F5 /* ViewPlaceDetailController.xib */,
+				C4EC071110444871000E44F2 /* ballon.png */,
+				C4EC05761042F256000E44F2 /* Default.png */,
+				C4EC05011042E2B7000E44F2 /* Icon.png */,
+				C4EC05021042E2B7000E44F2 /* ico-about.png */,
+				C4EC05031042E2B7000E44F2 /* ico-draft.png */,
+				C4EC05041042E2B7000E44F2 /* ico-newPointer.png */,
+				C4EC05051042E2B7000E44F2 /* ico-settings.png */,
+				C4EC05071042E2B7000E44F2 /* introSmall.jpg */,
+				C4EC05081042E2B7000E44F2 /* pin.png */,
+				8D1107310486CEB800E47090 /* ItuDimana-Info.plist */,
+				C46F2E5410555D4200BD2A82 /* ItuDimanaPlaces.xcdatamodel */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C45A65EA10629F8900E003F5 /* MapKit.framework */,
+				C46F2EC11055661500BD2A82 /* CoreData.framework */,
+				C4BE3800103C66B500018E2D /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4BD26AE104A6A440085BC79 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28216C950DB411BC00E5133A /* FirstViewController.h */,
+				28216C960DB411BC00E5133A /* FirstViewController.m */,
+				C4BE37B4103B0DE400018E2D /* TheCLController.h */,
+				C4BE37B5103B0DE400018E2D /* TheCLController.m */,
+				C4BD26A3104A6A3A0085BC79 /* ChooseCategoryViewController.h */,
+				C4BD26A4104A6A3A0085BC79 /* ChooseCategoryViewController.m */,
+				C4BD2898104A9A760085BC79 /* SettingsViewController.h */,
+				C4BD2899104A9A760085BC79 /* SettingsViewController.m */,
+				C4BD2949104ACF1D0085BC79 /* AboutViewController.h */,
+				C4BD294A104ACF1D0085BC79 /* AboutViewController.m */,
+				C46F305A1058057600BD2A82 /* SavedPlaceViewController.h */,
+				C46F305B1058057600BD2A82 /* SavedPlaceViewController.m */,
+				C45A65C110629C8700E003F5 /* ViewPlaceDetailController.h */,
+				C45A65C210629C8700E003F5 /* ViewPlaceDetailController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* ItuDimana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ItuDimana" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ItuDimana;
+			productName = ItuDimana;
+			productReference = 1D6058910D05DD3D006BFB54 /* ItuDimana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ItuDimana" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ItuDimana */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* ItuDimana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				282CCBFE0DB6C98000C4EA27 /* SettingsView.xib in Resources */,
+				C4EC050B1042E2B7000E44F2 /* Icon.png in Resources */,
+				C4EC050C1042E2B7000E44F2 /* ico-about.png in Resources */,
+				C4EC050D1042E2B7000E44F2 /* ico-draft.png in Resources */,
+				C4EC050E1042E2B7000E44F2 /* ico-newPointer.png in Resources */,
+				C4EC050F1042E2B7000E44F2 /* ico-settings.png in Resources */,
+				C4EC05111042E2B7000E44F2 /* introSmall.jpg in Resources */,
+				C4EC05121042E2B7000E44F2 /* pin.png in Resources */,
+				C4EC05771042F256000E44F2 /* Default.png in Resources */,
+				C4EC071210444871000E44F2 /* ballon.png in Resources */,
+				C4BD26A7104A6A3A0085BC79 /* ChooseCategoryViewController.xib in Resources */,
+				C4BD294D104ACF1D0085BC79 /* AboutViewController.xib in Resources */,
+				C46F305E1058057600BD2A82 /* SavedPlaceViewController.xib in Resources */,
+				C45A65C510629C8700E003F5 /* ViewPlaceDetailController.xib in Resources */,
+				C4CF4159106C84D00071BD4E /* radar.png in Resources */,
+				C4D25D2E106C85E10077FCF2 /* lifebuoy.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* ItuDimanaAppDelegate.m in Sources */,
+				28216C970DB411BC00E5133A /* FirstViewController.m in Sources */,
+				C4BE37B6103B0DE400018E2D /* TheCLController.m in Sources */,
+				C4A643F6103DC3AD00FDB223 /* Place.m in Sources */,
+				C4A64601103FEB6900FDB223 /* ItuDimanaXMLParser.m in Sources */,
+				C4A6460E103FF01D00FDB223 /* Alerts.m in Sources */,
+				C4BD26A2104A69F90085BC79 /* CategoryItem.m in Sources */,
+				C4BD26A6104A6A3A0085BC79 /* ChooseCategoryViewController.m in Sources */,
+				C4BD289A104A9A760085BC79 /* SettingsViewController.m in Sources */,
+				C4BD294C104ACF1D0085BC79 /* AboutViewController.m in Sources */,
+				C4BD29DC104ADABE0085BC79 /* DisplayCell.m in Sources */,
+				C46F2E5510555D4200BD2A82 /* ItuDimanaPlaces.xcdatamodel in Sources */,
+				C46F305D1058057600BD2A82 /* SavedPlaceViewController.m in Sources */,
+				C45A65C410629C8700E003F5 /* ViewPlaceDetailController.m in Sources */,
+				C45A66811062AB4D00E003F5 /* ParkPlaceMark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ItuDimana_Prefix.pch;
+				INFOPLIST_FILE = "ItuDimana-Info.plist";
+				PRODUCT_NAME = ItuDimana;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ItuDimana_Prefix.pch;
+				INFOPLIST_FILE = "ItuDimana-Info.plist";
+				PRODUCT_NAME = ItuDimana;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "ItuDimana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ItuDimana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
